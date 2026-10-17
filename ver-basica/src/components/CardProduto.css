@@ -1,0 +1,45 @@
+.card-produto {
+  background: white;
+  width: 220px;
+  padding: 15px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+  transition: transform 0.3s;
+}
+
+.card-produto-imagem {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-produto-nome {
+  color: #111827;
+  margin: 15px 0 8px;
+}
+
+.card-produto-preco {
+  font-weight: bold;
+  color: #2563eb;
+  font-size: 18px;
+}
+
+.card-produto-botao {
+  background: linear-gradient(135deg, #2563eb, #7c3aed, #ec4899);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-produto-botao:hover {
+  opacity: 0.85;
+}
+
+.card-produto:hover {
+  transform: scale(1.05);
+}

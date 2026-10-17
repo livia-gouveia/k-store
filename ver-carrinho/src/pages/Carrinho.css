@@ -1,0 +1,73 @@
+.pagina-carrinho {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.pagina-carrinho h2 {
+  font-size: 32px;
+  color: #2563eb;
+  margin-bottom: 30px;
+}
+
+.lista-carrinho {
+  max-width: 800px;
+  margin: auto;
+}
+
+.item-carrinho {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 14px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+.item-carrinho img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.item-carrinho h3 {
+  margin: 0 0 8px;
+  color: #111827;
+}
+
+.item-carrinho p {
+  margin: 0;
+  color: #7c3aed;
+  font-weight: bold;
+}
+
+.quantidade {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.quantidade button {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.quantidade button:hover {
+  background-color: #7c3aed;
+}
+
+.quantidade span {
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.rodape {
+  background-color: #111827;
+  color: white;
+  text-align: center;
+  padding: 18px;
+}
+
+.rodape p {
+  margin: 5px 0;
+}
+
+.rodape-contato {
+  color: #a78bfa;
+}
