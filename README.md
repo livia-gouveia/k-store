@@ -4,6 +4,9 @@ A K-Store é uma loja virtual de produtos de K-pop desenvolvida em React como pr
 
 O projeto foi criado com o objetivo de praticar conceitos fundamentais do desenvolvimento web com React, como criação de componentes, utilização de props, renderização de listas e navegação entre páginas.
 
+## Acesse o projeto
+https://k-store-sooty.vercel.app/
+
 ## Tecnologias utilizadas
 
 - React
